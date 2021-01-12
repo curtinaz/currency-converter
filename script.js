@@ -10,4 +10,4 @@ xhr.onload = function(){
   objeto 
 }
 
-newObject = objeto.split(",")
+var newObject = objeto.split(",")
