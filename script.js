@@ -7,9 +7,4 @@ xhr.onload = function(){
   console.log(this.response);
   objeto = JSON.stringify(this.response);
   objeto = JSON.parse(objeto)
-  objeto = objeto.split(":")
-  objeto = JSON.stringify(objeto)
-  objeto = objeto.split(",")
-  objeto = JSON.parse(objeto)
-
 }
