@@ -9,4 +9,4 @@ xhr.onload = function(){
   objeto = JSON.parse(objeto);
 }
 
-objeto = objeto.split(","); 
+objeto = objeto.split(","); // Divide em virgulas
