@@ -1,4 +1,4 @@
-var objeto
+var objeto = []
 
 var xhr = new XMLHttpRequest();
 xhr.open("GET", "https://api.exchangeratesapi.io/latest", true);
@@ -7,6 +7,7 @@ xhr.onload = function(){
   console.log(this.response);
   objeto = JSON.stringify(this.response);
   objeto = JSON.parse(objeto);
+  objeto 
 }
 
-objeto = objeto.split(","); // Divide em virgulas
+newObject = objeto.split(",")
