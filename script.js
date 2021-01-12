@@ -6,4 +6,5 @@ xhr.send(JSON.stringify(this.response));
 xhr.onload = function(){
   console.log(this.response);
   objeto = JSON.stringify(this.response);
+  objeto = JSON.parse(objeto)
 }
