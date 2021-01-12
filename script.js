@@ -1,7 +1,11 @@
+var objeto
+
 var xhr = new XMLHttpRequest();
 xhr.open("GET", "https://api.exchangeratesapi.io/latest", true);
-xhr.send();
+xhr.send(JSON.stringify(this.response));
 xhr.onload = function(){
   console.log(this.response);
+  objeto = this.response;
 }
-objeto = JSON.parse(xhr.response)
+
+objeto = JSON.parse(objeto)
