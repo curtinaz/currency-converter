@@ -4,3 +4,4 @@ xhr.send();
 xhr.onload = function(){
   console.log(this.response);
 }
+objeto = JSON.parse(xhr.response)
