@@ -16,6 +16,9 @@ var cotada = document.querySelector("#cotada");
 
 // MATEMÁTICA APLICADA
 
+var baseTrue = 0;
+var cotadaTrue = 0;
+
 const baseMath = () => {
 
 }
