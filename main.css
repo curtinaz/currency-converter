@@ -31,7 +31,7 @@ textarea:focus, input:focus, select:focus, .inLine input {
 }
 
 .inLine, .inLine input {
-    width: 100%;
+    width: 90%;
     background-color:#FEF0DB;
     color: #c8c8c8;
     font-size: 32px;
@@ -40,7 +40,7 @@ textarea:focus, input:focus, select:focus, .inLine input {
 
 .inLine {
     padding: 10px;
-    margin-bottom: 10px;
+    margin: 0 10px 10px 10px;
 }
 
 #cotadaLabel, #baseLabel {
