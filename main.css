@@ -6,7 +6,11 @@ textarea:focus, input:focus, select:focus, .inLine input {
     outline: 0;
 } 
 
-#app, #app span {
+* {
+    margin: 0;
+}
+
+#app, #app span, body {
     display: grid;
     align-items: center;
     justify-content: center;
