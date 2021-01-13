@@ -20,7 +20,7 @@ var baseTrue = 0;
 var cotadaTrue = 0;
 
 const baseMath = () => {
-
+  baseTrue = baseQtd.value*dados.rates.BRL
 }
 
 const cotadaMath = () => {
