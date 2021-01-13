@@ -18,15 +18,16 @@ var cotada = document.querySelector("#cotada");
 
 var baseTrue = 0;
 var cotadaTrue = 0;
-var rasao = 0;
+var rasaoBase = 0;
+var rasaoCotada = 0;
 
 const baseMath = () => {
-  rasao = dados.rates.USD/dados.rates.BRL
-  cotadaQtd.value = (baseQtd.value*rasao).toFixed(2);
+  rasaoBase = dados.rates.USD/dados.rates.BRL
+  cotadaQtd.value = (baseQtd.value*rasaoBase).toFixed(2);
 }
 
 const cotadaMath = () => {
-  cotadaTrue = cotadaQtd.value*dados.rates.USD
+  rasaoCotada = dados.rates.USD/dados.rates.BRL
   baseQtd.value = (dados.rates.BRL/cotadaTrue).toFixed(2);
 }
 
