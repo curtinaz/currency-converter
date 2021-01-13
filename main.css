@@ -5,3 +5,8 @@
     align-items: center;
     justify-content: center;
 }
+
+#app h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+}
