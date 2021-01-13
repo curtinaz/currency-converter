@@ -8,4 +8,4 @@ fetch('https://api.exchangeratesapi.io/latest')
     dados = data;
   });
 
-var baseQtd = document.querySelector("#baseQtd")
+var baseQtd = document.querySelector("#baseQtd");
