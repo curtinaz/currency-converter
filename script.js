@@ -14,9 +14,10 @@ var base = document.querySelector("#base");
 var cotadaQtd = document.querySelector("#cotadaQtd");
 var cotada = document.querySelector("#cotada");
 
+// KEY EVENT LISTENERS
+
 const baseMath = () => {
-  console.log(baseQtd.value)
-  console.log(cotadaQtd.value)
+
 }
 
 const cotadaMath = () => {
