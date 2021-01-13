@@ -42,7 +42,7 @@ input[type=number] {
 }
 
 .inLine, .inLine input {
-    width: 80%;
+    width: 90%;
     background-color:#FEF0DB;
     color: #c8c8c8;
     font-size: 32px;
@@ -60,6 +60,6 @@ input[type=number] {
 
 .inLine input {
     text-align: right;
-    width: 95%;
+    /* width: 95%; */
     justify-self: right;
 }
