@@ -11,8 +11,9 @@ fetch('https://api.exchangeratesapi.io/latest')
 var baseQtd = document.querySelector("#baseQtd");
 
 const math = () => {
-  console.log("Mudou")
+  console.log("baseQtd.value")
 }
 
 baseQtd.addEventListener("change", math);
+baseQtd.addEventListener("keyup", math); 
 
