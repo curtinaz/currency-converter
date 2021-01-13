@@ -30,6 +30,6 @@ baseQtd.addEventListener("keyup", baseMath);
 base.addEventListener("change", baseMath);
 
 cotadaQtd.addEventListener("change", cotadaMath);
-cotadaQtd.addEventListener("keyup", math); 
+cotadaQtd.addEventListener("keyup", cotadaMath); 
 
-cotada.addEventListener("change", math);
+cotada.addEventListener("change", cotadaMath);
