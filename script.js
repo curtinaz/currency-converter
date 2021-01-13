@@ -18,11 +18,13 @@ var cotada = document.querySelector("#cotada");
 
 var baseTrue = 0;
 var cotadaTrue = 0;
+var rasao = 0;
 
 const baseMath = () => {
+  rasao = dados.rates.USD/dados.rates.BRL
   baseTrue = baseQtd.value*dados.rates.BRL
   cotadaTrue = baseQtd.value*dados.rates.USD
-  cotadaQtd.value = (baseTrue/dados.rates.USD).toFixed(2); // seila
+  cotadaQtd.value = (baseQtd.value*rasao).toFixed(2); // seila
 }
 
 const cotadaMath = () => {
