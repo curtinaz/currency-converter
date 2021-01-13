@@ -40,6 +40,7 @@ textarea:focus, input:focus, select:focus, .inLine input {
 
 .inLine {
     padding: 10px;
+    margin-bottom: 10px;
 }
 
 #cotadaLabel, #baseLabel {
