@@ -28,7 +28,7 @@ const baseMath = () => {
 
 const cotadaMath = () => {
   rasaoCotada = dados.rates.USD/dados.rates.BRL
-  baseQtd.value = (baseQtd.value*rasaoCotada).toFixed(2);
+  baseQtd.value = (cotadaQtd.value*rasaoCotada).toFixed(2);
 }
 
 // KEY EVENT LISTENERS
