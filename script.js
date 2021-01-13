@@ -11,6 +11,9 @@ fetch('https://api.exchangeratesapi.io/latest')
 var baseQtd = document.querySelector("#baseQtd");
 var base = document.querySelector("#base");
 
+var cotadaQtd = document.querySelector("#baseQtd");
+var cotada = document.querySelector("#base");
+
 const math = () => {
   console.log(baseQtd.value)
 }
