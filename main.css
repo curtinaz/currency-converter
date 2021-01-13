@@ -27,7 +27,7 @@ textarea:focus, input:focus, select:focus, .inLine input {
 
 .inLine, .inLine input {
     width: 100%;
-    background-color: rgb(211, 196, 114);
+    background-color:#FEF0DB;
 }
 
 .inLine {
