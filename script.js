@@ -14,15 +14,15 @@ var base = document.querySelector("#base");
 var cotadaQtd = document.querySelector("#cotadaQtd");
 var cotada = document.querySelector("#cotada");
 
-const math = () => {
+const baseMath = () => {
   console.log(baseQtd.value)
   console.log(cotadaQtd.value)
 }
 
-baseQtd.addEventListener("change", math);
-baseQtd.addEventListener("keyup", math); 
+baseQtd.addEventListener("change", baseMath);
+baseQtd.addEventListener("keyup", baseMath); 
 
-base.addEventListener("change", math);
+base.addEventListener("change", baseMath);
 
 cotadaQtd.addEventListener("change", math);
 cotadaQtd.addEventListener("keyup", math); 
