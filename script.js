@@ -6,6 +6,7 @@ fetch('https://api.exchangeratesapi.io/latest')
   })
   .then ((data) => {
     dados = data;
+    baseMath()
   });
 
 var baseQtd = document.querySelector("#baseQtd");
@@ -42,5 +43,3 @@ cotadaQtd.addEventListener("change", cotadaMath);
 cotadaQtd.addEventListener("keyup", cotadaMath); 
 
 cotada.addEventListener("change", cotadaMath);
-
-baseMath();
