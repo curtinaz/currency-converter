@@ -28,6 +28,8 @@ textarea:focus, input:focus, select:focus, .inLine input {
 .inLine, .inLine input {
     width: 100%;
     background-color:#FEF0DB;
+    color: #c8c8c8;
+    font-size: 32px;
 }
 
 .inLine {
