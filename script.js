@@ -1,10 +1,10 @@
-var exchange;
+var dados;
 
 fetch('https://api.exchangeratesapi.io/latest')
   .then( (response) => {
       return response.json();
   })
   .then ( (data) => {
-    exchange = data;
-  })
-  
+    dados = data;
+  });
+
