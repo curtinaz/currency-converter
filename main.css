@@ -42,6 +42,10 @@ textarea:focus, input:focus, select:focus, .inLine input {
     padding: 10px;
 }
 
+#cotadaLabel, #baseLabel {
+    z-index: 999;
+}
+
 .inLine input {
     text-align: right;
 }
