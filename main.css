@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
 
-textarea:focus, input:focus, select:focus {
+textarea:focus, input:focus, select:focus, .inLine input {
     box-shadow: 0 0 0 0;
     border: 0 none;
     outline: 0;
@@ -28,4 +28,12 @@ textarea:focus, input:focus, select:focus {
 .inLine, .inLine input {
     width: 100%;
     background-color: rgb(211, 196, 114);
+}
+
+.inLine {
+    padding: 10px;
+}
+
+.inLine input {
+    text-align: right;
 }
