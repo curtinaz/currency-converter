@@ -21,7 +21,7 @@ var cotadaTrue = 0;
 
 const baseMath = () => {
   baseTrue = baseQtd.value*dados.rates.BRL
-  cotadaQtd.value = (dados.rates.USD/baseTrue).toFixed(2);
+  cotadaQtd.value = (dados.rates.USD/baseTrue).toFixed(2); // seila
 }
 
 const cotadaMath = () => {
