@@ -9,6 +9,7 @@ fetch('https://api.exchangeratesapi.io/latest')
   });
 
 var baseQtd = document.querySelector("#baseQtd");
+var base = document.querySelector("#base");
 
 const math = () => {
   console.log(baseQtd.value)
@@ -17,3 +18,4 @@ const math = () => {
 baseQtd.addEventListener("change", math);
 baseQtd.addEventListener("keyup", math); 
 
+base.addEventListener("change", math);
