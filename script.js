@@ -27,7 +27,7 @@ const baseMath = () => {
 }
 
 const cotadaMath = () => {
-  rasaoCotada = dados.rates.USD/dados.rates.BRL
+  rasaoCotada = dados.rates.BRL/dados.rates.USD
   baseQtd.value = (cotadaQtd.value*rasaoCotada).toFixed(2);
 }
 
