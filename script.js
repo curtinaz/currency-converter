@@ -19,6 +19,11 @@ const baseMath = () => {
   console.log(cotadaQtd.value)
 }
 
+const cotadaMath = () => {
+  console.log(baseQtd.value)
+  console.log(cotadaQtd.value)
+}
+
 baseQtd.addEventListener("change", baseMath);
 baseQtd.addEventListener("keyup", baseMath); 
 
