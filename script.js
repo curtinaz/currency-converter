@@ -22,3 +22,8 @@ baseQtd.addEventListener("change", math);
 baseQtd.addEventListener("keyup", math); 
 
 base.addEventListener("change", math);
+
+cotadaQtd.addEventListener("change", math);
+cotadaQtd.addEventListener("keyup", math); 
+
+cotada.addEventListener("change", math);
