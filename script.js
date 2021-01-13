@@ -14,7 +14,7 @@ var base = document.querySelector("#base");
 var cotadaQtd = document.querySelector("#cotadaQtd");
 var cotada = document.querySelector("#cotada");
 
-// KEY EVENT LISTENERS
+// MATEMÁTICA APLICADA
 
 const baseMath = () => {
 
@@ -24,6 +24,8 @@ const cotadaMath = () => {
   console.log(baseQtd.value)
   console.log(cotadaQtd.value)
 }
+
+// KEY EVENT LISTENERS
 
 baseQtd.addEventListener("change", baseMath);
 baseQtd.addEventListener("keyup", baseMath); 
