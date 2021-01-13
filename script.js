@@ -16,6 +16,7 @@ var cotada = document.querySelector("#cotada");
 
 const math = () => {
   console.log(baseQtd.value)
+  console.log(cotadaQtd.value)
 }
 
 baseQtd.addEventListener("change", math);
