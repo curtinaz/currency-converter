@@ -10,8 +10,9 @@ fetch('https://api.exchangeratesapi.io/latest')
 
 var baseQtd = document.querySelector("#baseQtd");
 
-baseQtd.addEventListener("change", math);
-
 const math = () => {
   console.log("Mudou")
 }
+
+baseQtd.addEventListener("change", math);
+
