@@ -21,11 +21,12 @@ var cotadaTrue = 0;
 
 const baseMath = () => {
   baseTrue = baseQtd.value*dados.rates.BRL
+  cotadaQtd.value = (dados.rates.USD/baseTrue).toFixed(2);
 }
 
 const cotadaMath = () => {
-  console.log(baseQtd.value)
-  console.log(cotadaQtd.value)
+  cotadaTrue = cotadaQtd.value*dados.rates.USD
+  baseQtd.value = (dados.rates.BRL/cotadaTrue).toFixed(2);
 }
 
 // KEY EVENT LISTENERS
