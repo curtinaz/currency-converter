@@ -71,6 +71,12 @@ input[type=number] {
     animation-duration: 1s;
     animation-fill-mode: forwards;
 }
+
+#app h1 {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
  
 @keyframes fadeIn {
     from{
