@@ -68,6 +68,7 @@ input[type=number] {
 
 #app h1 {
     animation-name: fadeIn;
+    animation-duration: 1s;
 }
  
 @keyframes fadeIn {
