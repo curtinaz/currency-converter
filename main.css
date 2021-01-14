@@ -66,6 +66,10 @@ input[type=number] {
 
 /* ANIMATIONS */
 
+#app h1 {
+    
+}
+ 
 @keyframes fadeIn {
     from{
         opacity: 0;
@@ -77,9 +81,9 @@ input[type=number] {
 
 @keyframes slideUp {
     from{
-
+        bottom: -20px;
     }
     to{
-        
+        top: 0px;
     }
 }
