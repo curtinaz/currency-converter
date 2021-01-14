@@ -86,6 +86,6 @@ input[type=number] {
         transform: translateY(-20px);
     }
     to{
-        top: 0px;
+        transform: translateY(0px);
     }
 }
