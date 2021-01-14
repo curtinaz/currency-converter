@@ -79,7 +79,7 @@ input[type=number] {
 }
 
 #app base, #app cotada, .inLine {
-    animation-name: fadeIn;
+    animation-name: fadeIn, slideUp;
     animation-duration: 1s;
     animation-fill-mode: forwards;
 }
