@@ -82,6 +82,7 @@ input[type=number] {
     animation-name: fadeIn, slideUp;
     animation-duration: 1s;
     animation-fill-mode: forwards;
+    animation-delay: 0.5s;
 }
  
 @keyframes fadeIn {
