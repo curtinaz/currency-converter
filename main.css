@@ -77,6 +77,15 @@ input[type=number] {
     animation-duration: 1s;
     animation-fill-mode: forwards;
 }
+
+#app base, #app cotada, .inLine {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-name: slideUp;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
  
 @keyframes fadeIn {
     from{
