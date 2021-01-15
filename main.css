@@ -72,7 +72,7 @@ input[type=number] {
     animation-fill-mode: forwards;
 }
 
-#app h1, baseLabel, cotadaLabel, baseQtd, cotadaQtd {
+#app h1, #baseLabel, #cotadaLabel, #baseQtd, #cotadaQtd {
     animation-name: fadeIn;
     animation-duration: 1s;
     animation-fill-mode: forwards;
@@ -87,6 +87,8 @@ input[type=number] {
     animation-delay: 0.25s;
     opacity: 0;
 }
+
+
  
 @keyframes fadeIn {
     from{
