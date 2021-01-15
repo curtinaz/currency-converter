@@ -88,7 +88,9 @@ input[type=number] {
     opacity: 0;
 }
 
-
+#baseLabel {
+    animation-delay: 0.5s;
+}
  
 @keyframes fadeIn {
     from{
