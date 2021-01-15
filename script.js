@@ -32,8 +32,8 @@ const cotadaMath = () => {
   baseQtd.value = (cotadaQtd.value*rasaoCotada).toFixed(2);
 }
 
-const clickToSelect = () => {
-  base.select()
+const clickToSelect = (query) => {
+  query.select()
 }
 
 // KEY EVENT LISTENERS
@@ -48,5 +48,5 @@ cotadaQtd.addEventListener("keyup", cotadaMath);
 
 cotada.addEventListener("change", cotadaMath);
 
-baseQtd.addEventListener("click", clickToSelect);
-cotadaQtd.addEventListener("click", clickToSelect);
+baseQtd.addEventListener("click", clickToSelect(baseQtd));
+cotadaQtd.addEventListener("click", clickToSelect(baseQtd));
