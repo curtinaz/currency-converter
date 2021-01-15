@@ -32,7 +32,7 @@ const cotadaMath = () => {
   baseQtd.value = (cotadaQtd.value*rasaoCotada).toFixed(2);
 }
 
-const clickToSelect = () => {
+const clickToSelectBase = () => {
   base.select()
 }
 
