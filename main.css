@@ -31,6 +31,7 @@ input[type=number] {
     font-weight: 300;
     text-align: center;
     margin: 25px 0;
+    cursor: default;
 }
 
 #app h1 strong {
