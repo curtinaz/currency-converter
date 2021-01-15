@@ -37,7 +37,7 @@ const clickToSelectBase = () => {
 }
 
 const clickToSelectCotada = () => {
-  baseQtd.select()
+  cotadaQtd.select()
 }
 
 // KEY EVENT LISTENERS
