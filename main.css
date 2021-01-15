@@ -50,12 +50,14 @@ input[type=number] {
 
 .inLine:hover{
     background-color:#ffe7c3;
+    transition: 150ms;
 }
 
 .inLine {
     background-color:#FEF0DB;
     padding: 10px;
     margin: 0 10px 10px 10px;
+    transition: 150ms;
 }
 
 #cotadaLabel, #baseLabel {
@@ -63,6 +65,7 @@ input[type=number] {
 }
 
 .inLine input {
+    background-color:#fef0db00;
     text-align: right;
     /* width: 95%; */
     justify-self: right;
