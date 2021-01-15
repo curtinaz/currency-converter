@@ -99,6 +99,10 @@ input[type=number] {
 #cotadaLabel {
     animation-delay: 0.7s;
 }
+
+#cotadaQtd {
+    animation-delay: 0.6s;
+}
  
 @keyframes fadeIn {
     from{
