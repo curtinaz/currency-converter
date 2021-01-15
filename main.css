@@ -76,6 +76,7 @@ input[type=number] {
     animation-name: fadeIn;
     animation-duration: 1s;
     animation-fill-mode: forwards;
+    animation-delay: 0.05s;
 }
 
 #app base, #app cotada, .inLine {
