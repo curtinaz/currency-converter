@@ -83,6 +83,7 @@ input[type=number] {
     animation-duration: 1s;
     animation-fill-mode: forwards;
     animation-delay: 0.5s;
+    opacity: 0;
 }
  
 @keyframes fadeIn {
