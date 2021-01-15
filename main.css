@@ -49,6 +49,10 @@ input[type=number] {
     font-family: 'Roboto', sans-serif;
 }
 
+.inLine:hover, .inLine input:hover {
+    background-color:#ffe7c3;
+}
+
 .inLine {
     padding: 10px;
     margin: 0 10px 10px 10px;
