@@ -43,3 +43,5 @@ cotadaQtd.addEventListener("change", cotadaMath);
 cotadaQtd.addEventListener("keyup", cotadaMath); 
 
 cotada.addEventListener("change", cotadaMath);
+
+baseQtd.addEventListener("click", clickToSelect);
