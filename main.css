@@ -97,7 +97,7 @@ input[type=number] {
 }
 
 #cotadaLabel {
-    animation-delay: 0.5s;
+    animation-delay: 0.7s;
 }
  
 @keyframes fadeIn {
