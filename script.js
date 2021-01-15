@@ -32,8 +32,8 @@ const cotadaMath = () => {
   baseQtd.value = (cotadaQtd.value*rasaoCotada).toFixed(2);
 }
 
-const clickToSelect = (query) => {
-  query.select();
+const clickToSelect = () => {
+  base.select()
 }
 
 // KEY EVENT LISTENERS
