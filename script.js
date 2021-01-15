@@ -1,10 +1,10 @@
 var dados;
 
 fetch('https://api.exchangeratesapi.io/latest')
-  .then((response) => {
+  .then(response => {
       return response.json();
   })
-  .then ((data) => {
+  .then (data => {
     dados = data;
     baseMath()
   });
@@ -30,6 +30,10 @@ const baseMath = () => {
 const cotadaMath = () => {
   rasaoCotada = dados.rates.BRL/dados.rates.USD
   baseQtd.value = (cotadaQtd.value*rasaoCotada).toFixed(2);
+}
+
+const clickToSelect = (query) => {
+
 }
 
 // KEY EVENT LISTENERS
