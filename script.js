@@ -33,7 +33,7 @@ const cotadaMath = () => {
 }
 
 const clickToSelect = (query) => {
-
+  query.select();
 }
 
 // KEY EVENT LISTENERS
@@ -48,5 +48,5 @@ cotadaQtd.addEventListener("keyup", cotadaMath);
 
 cotada.addEventListener("change", cotadaMath);
 
-baseQtd.addEventListener("click", clickToSelect);
-cotadaQtd.addEventListener("click", clickToSelect);
+baseQtd.addEventListener("click", clickToSelect(base));
+cotadaQtd.addEventListener("click", clickToSelect(cotada));
