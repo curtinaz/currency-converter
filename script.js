@@ -36,6 +36,10 @@ const clickToSelectBase = () => {
   baseQtd.select()
 }
 
+const clickToSelectCotada = () => {
+  baseQtd.select()
+}
+
 // KEY EVENT LISTENERS
 
 baseQtd.addEventListener("change", baseMath);
