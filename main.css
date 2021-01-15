@@ -91,6 +91,10 @@ input[type=number] {
 #baseLabel {
     animation-delay: 0.5s;
 }
+
+#baseQtd {
+    animation-delay: 0.5s;
+}
  
 @keyframes fadeIn {
     from{
