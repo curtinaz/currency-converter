@@ -33,7 +33,7 @@ const cotadaMath = () => {
 }
 
 const clickToSelectBase = () => {
-  base.select()
+  baseQtd.select()
 }
 
 // KEY EVENT LISTENERS
