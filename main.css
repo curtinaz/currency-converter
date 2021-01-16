@@ -67,7 +67,7 @@ input[type=number] {
     transition: 150ms;
 }
 
-#cotadaLabel, #baseLabel {
+#cotadaLabel, #baseLabel, option {
     z-index: 999;
 }
 
