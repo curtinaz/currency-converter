@@ -9,7 +9,7 @@ fetch('https://api.exchangeratesapi.io/latest')
     baseMath()
   });
 
-  $(#baseLabel).ready(function() {
+  $('#baseLabel').ready(function() {
     $('select').niceSelect();
   });
 
