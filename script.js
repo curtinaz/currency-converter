@@ -9,6 +9,10 @@ fetch('https://api.exchangeratesapi.io/latest')
     baseMath()
   });
 
+  $('baseLabel').ready(function() {
+    $('select').niceSelect();
+  });
+
 var baseQtd = document.querySelector("#baseQtd");
 var base = document.querySelector("#base");
 
