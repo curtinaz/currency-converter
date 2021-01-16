@@ -67,8 +67,12 @@ input[type=number] {
     transition: 150ms;
 }
 
-#cotadaLabel, #baseLabel, option {
+#cotadaLabel, #baseLabel {
     z-index: 999;
+}
+
+select option {
+    z-index: 9999;
 }
 
 .inLine input {
