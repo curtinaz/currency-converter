@@ -40,10 +40,6 @@ const clickToSelectCotada = () => {
   cotadaQtd.select()
 }
 
-$(document).ready(function() {
-  $('select').niceSelect();
-});
-
 // KEY EVENT LISTENERS
 
 baseQtd.addEventListener("change", baseMath);
