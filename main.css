@@ -130,7 +130,7 @@ select option {
 }
 
 .custom-select select {
-    display: none; /*hide original SELECT element: */
+    display: none;
   }
  
 @keyframes fadeIn {
