@@ -166,6 +166,14 @@ select option {
     z-index: 99;
 }
 
+.select-hide {
+    display: none;
+  }
+  
+  .select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
 @keyframes fadeIn {
     from{
         opacity: 0;
