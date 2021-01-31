@@ -133,6 +133,10 @@ select option {
     display: none;
 }
 
+.select-selected {
+  background-color: DodgerBlue;
+}
+
 .select-selected:after {
     position: absolute;
     content: "";
