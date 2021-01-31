@@ -148,6 +148,14 @@ select option {
     border-color: transparent transparent #fff transparent;
     top: 7px;
 }
+
+.select-items div,.select-selected {
+    color: #ffffff;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+  }
  
 @keyframes fadeIn {
     from{
