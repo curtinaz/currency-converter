@@ -124,6 +124,10 @@ select option {
 }
 
 /* NOVO SELECT */
+
+.custom-select {
+    
+}
  
 @keyframes fadeIn {
     from{
