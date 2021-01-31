@@ -131,7 +131,7 @@ select option {
 
 .custom-select select {
     display: none;
-  }
+}
  
 @keyframes fadeIn {
     from{
