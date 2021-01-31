@@ -147,7 +147,7 @@ select option {
 .select-selected.select-arrow-active:after {
     border-color: transparent transparent #fff transparent;
     top: 7px;
-  }
+}
  
 @keyframes fadeIn {
     from{
