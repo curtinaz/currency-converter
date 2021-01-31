@@ -164,7 +164,7 @@ select option {
     left: 0;
     right: 0;
     z-index: 99;
-  }
+}
 
 @keyframes fadeIn {
     from{
