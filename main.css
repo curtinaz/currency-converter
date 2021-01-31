@@ -122,6 +122,8 @@ select option {
 #cotadaQtd {
     animation-delay: 0.8s;
 }
+
+/* NOVO SELECT */
  
 @keyframes fadeIn {
     from{
