@@ -45,12 +45,12 @@ const clickToSelectCotada = () => {
 baseQtd.addEventListener("change", baseMath);
 baseQtd.addEventListener("keyup", baseMath); 
 
-base.addEventListener("change", baseMath);
+// base.addEventListener("change", baseMath);
 
 cotadaQtd.addEventListener("change", cotadaMath);
 cotadaQtd.addEventListener("keyup", cotadaMath); 
 
-cotada.addEventListener("change", cotadaMath);
+// cotada.addEventListener("change", cotadaMath);
 
 baseQtd.addEventListener("click", clickToSelectBase);
 cotadaQtd.addEventListener("click", clickToSelectCotada);
